@@ -1,17 +1,3 @@
-"""
-Enhanced Automated Data Entry Bot
----------------------------------
-Adds robust error handling for:
-  1. Process-launch issues (Notepad missing)
-  2. Focus/UI automation failures
-  3. File-system errors
-  4. Environment/platform checks
-  5. Graceful interruption (Ctrl+C)
-
-Dependencies:
-    pip install requests pyautogui pygetwindow
-"""
-
 import sys
 import os
 import time
